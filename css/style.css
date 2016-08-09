@@ -1,0 +1,350 @@
+body,html{
+  position:relative;
+  width: 100%;
+  height: 100%;
+  background-color:black;
+  font-size:16px; 
+}
+#fsr{
+  font-size:1rem;
+}
+h1{
+  color:black;
+  font-size: 6.25em;
+  font-family: 'Lobster', Georgia, Times, serif;
+}
+h3{
+  color:black;
+  font-size: 5em;
+  font-family: 'Lobster', Georgia, Times, serif;
+}
+#home {
+ background:url("http://placements.prospectsoft.com/PRS-PLACE//img/placeholder.jpg") no-repeat center center fixed;
+  background-size: 100% 100%;
+  text-align: center;
+}
+.conTable{
+  height:100%;
+  display: table;
+}
+.vertical-center-row{
+  display:table-cell;
+  vertical-align: middle;
+}
+#about {
+  padding-top:90px;
+  padding-bottom:20px;
+  background: url("http://www.redpepperwallpaper.com/wp_highres/city/WPF26P3E.jpg") no-repeat center center fixed;
+  background-size: 100% 100%;
+  
+}
+#portfolio {
+  padding-top:50px;
+  color: #fff; 
+  background-color: #ff9800;
+  background: url("http://mickecast.com/wpSite/wp-content/uploads/2013/04/i9Kjbi93lbUeg.jpg")no-repeat center center fixed;
+  background-size: 100% 100%;
+}
+#contact {
+  background: url("http://hdwallpaperbackgrounds.net/wp-content/uploads/2015/09/Mailbox-US-HD-Wallpapers.jpg") no-repeat center center fixed;
+  padding-top:50px;
+  color: #fff; 
+  background-size: 100% 100%;
+}
+.navbar{
+  margin-bottom: 0px;
+  border-radius:0px;
+  z-index:999;
+}
+.affix {
+    top: 0;
+    width: 100%;
+    position: fixed;
+    -webkit-transition: all .5s ease-in-out;
+    transition: all .5s ease-in-out;
+    background-color: #222222;
+    border-color: black;
+}
+.affix a {
+      color: #fff !important;
+      padding: 15px !important;
+      -webkit-transition: all .5s ease-in-out;
+      transition: all .5s ease-in-out;
+  }
+.affix-top a {
+      padding: 25px !important;
+  }
+hr.style-one {
+    border: 0;
+    height: 2px;
+    width: 1000px;
+    background: #333;
+    background-image: linear-gradient(to right, #ccc, #333, #ccc);
+}
+.img-zoom {
+    -webkit-transition: all .2s ease-in-out;
+    -moz-transition: all .2s ease-in-out;
+    -o-transition: all .2s ease-in-out;
+    -ms-transition: all .2s ease-in-out;
+} 
+.transition {
+    -webkit-transform: scale(2); 
+    -moz-transform: scale(2);
+    -o-transform: scale(2);
+    transform: scale(2);
+}
+.overlay-j{
+  position: absolute;
+  top: 0;
+  left: 1.875rem;
+}
+.overlay-text{
+  position: absolute;
+  top: 0;
+  left: 3.125rem;
+  z-index:10;
+  }
+ul.social-buttons > li {
+        /*display: block;*/
+        margin-bottom: 20px;
+       /* padding: 0;*/
+        text-align:center;
+}
+ul.social-buttons > li a:hover {
+	color: #fff;
+  border: 2px outset rgba(0, 0, 0, 0.9);
+  background: rgba(0,0,0, 0.9);
+  transform:scale(1.1);
+  transition: 0.2s;
+  text-shadow: 1px 1px 1px rgba(0,0,0, 20);
+  box-shadow: 3px 3px 3px rgba(0,0,0,0.5);
+  letter-spacing: 2px;
+}
+ ul.social-buttons > li:last-child {
+    margin-bottom: 0;
+ }
+ul.social-buttons > li a{
+  display: inline-block;
+}
+#contact h2{
+  font-family: 'Amatic SC', cursive;
+    font-weight: bold;
+    line-height: 46px;
+    font-size: 2.875rem;
+    margin: 0 0 23px 0;
+}
+.work-holder{
+   box-shadow: 0 0 1px rgba(0,0,0,0.3);
+   display: block;
+   margin-bottom: 20px;
+   max-width: 300px;
+   margin-left: auto;
+   margin-right: auto;
+  border: 10px solid;
+}
+.portfolio-caption{
+  margin: 0 auto;
+  text-align: center;
+}
+/* Large Devices, Wide Screens */
+    @media only screen and (max-width : 75em) {
+
+    }
+
+    /* Medium Devices, Desktops */
+    @media only screen and (max-width : 62em) {
+      h1{
+    font-size: 3.7em;
+     }
+  hr.style-one {
+    width: 350px; 
+  }
+
+    }
+
+    /* Small Devices, Tablets */
+    @media only screen and (max-width : 48em) {
+
+    }
+
+    /* Extra Small Devices, Phones */ 
+@media only screen and (max-width : 30em) {
+  
+}
+
+    /* Custom, iPhone Retina */ 
+@media only screen and (max-width : 23.44em) {
+  h1{
+    font-size: 2.783em;
+  }
+  #home h2{
+    font-size: 1.4em !important;
+  }
+  hr.style-one {
+    width: 250px; 
+  }
+  #home{
+      background-size: auto;
+    	min-height:20.3125em;
+  }
+  #about img {
+    border-radius:2000px !important;
+    width:150px;
+  }
+  #about h3{
+    font-size: 3em;
+  }
+  #about p{
+    font-size: 1rem !important;
+    padding-right:0.3125rem;
+    padding-left:0.3125rem;
+  }
+  #about{
+    padding-top:3.5rem;
+    background-size: auto;
+    height:auto !important;
+    padding-bottom:3.125rem;
+
+  }
+  #contact{
+    padding-top:3.5rem !important;
+    background-size: auto;
+    min-height:30em;  
+  }
+  
+  #contact h2{
+    font-size:1.5rem !important; 
+    line-height: 30px;
+
+  }
+  #contact span{
+    font-size:1em !important;
+  }
+  #portfolio {
+    background-size: auto;
+  }
+  #portfolio img{
+    width:200px;
+    height:200px;
+  }
+  #contact .div2{
+  	margin-top: -0.9em !important;
+  }
+  footer p,a {
+    font-size:0.5em !important;
+  }
+  #portfolio .text-muted{
+  color:#FFE4B5;
+  }
+}
+
+
+@media only screen and (min-width: 23.5em) and (max-width: 29.94em){ 
+  h1{
+    font-size: 3.7em;
+  }
+  hr.style-one {
+    width: 350px; 
+  }
+  #home{
+      background-size: auto;
+      height:800px !important;
+  }
+  #about img {
+    border-radius:2000px !important;
+  }
+  #about h3{
+    font-size: 3em;
+  }
+  #about p{
+    font-size: 1rem !important;
+    padding-right:0.3125rem;
+    padding-left:0.3125rem;
+  }
+  #portfolio {
+    background-size: auto;
+  }
+  #about{
+    padding-top:3.125rem;
+    background-size: auto;
+  }
+  #contact{
+ 
+    background-size: auto;
+  }
+}
+
+@media only screen and (min-width: 30em) and (max-width: 47.94em){ 
+h1{
+    font-size: 5em;
+  }
+  #home h2{
+    font-size: 2em !important;
+  }
+  hr.style-one {
+    width: 425px; 
+  }
+  #home{
+      background-size: auto;
+    	min-height:20.3125em;
+  }
+  #about img {
+    border-radius:2000px !important;
+    width:150px;
+  }
+  #about h3{
+    font-size: 4.5em;
+  }
+  #about p{
+    font-size: 1rem !important;
+    padding-right:0.3125rem;
+    padding-left:0.3125rem;
+  }
+  #about{
+    padding-top:3.5rem;
+    background-size: auto;
+    height:auto !important;
+    padding-bottom:3.125rem;
+
+  }
+  #portfolio {
+    background-size: auto;
+  }
+  #contact{
+    padding-top:3.5rem !important;
+    background-size: auto;
+    min-height:30em;
+
+    
+    
+  }
+  
+  #contact h2{
+    font-size:1.5rem !important; 
+    line-height: 30px;
+
+  }
+  #contact span{
+    font-size:1em !important;
+  }
+  #portfolio img{
+    width:200px;
+    height:200px;
+  }
+  #contact .div2{
+  	margin-top: -0.9em !important;
+  }
+  footer p,a {
+    font-size:0.5em !important;
+  }
+  #portfolio .text-muted{
+  color:#FFE4B5;
+  }
+}
+
+@media only screen and (min-width: 48em) and (max-width: 61.94em){ ... }
+
+@media only screen and (min-width: 62em) and (max-width: 124.94em){ ... }
+  /*https://css-tricks.com/absolute-positioning-inside-relative-positioning/
+
+http://www.mrmcguire.com/10-useful-google-font-combinations-for-your-next-site/*/
